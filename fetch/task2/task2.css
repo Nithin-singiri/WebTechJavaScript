@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#content{
+    height: 80vh;
+    width: 90vw;
+}
+main{
+    height: 400px;
+    width: 85vw;
+    border: 1px solid black;
+    margin: 5px 7.5vw;
+    display: flex;
+}
+main>#image{
+    height: 100%;
+    width: 30vw;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 100%;
+        width: 400px;
+        /* border: 1px solid red; */
+    }
+}
+
+
+main>#description{
+    height: 100%;
+    width: 55vw;
+    border: 2px solid brown;
+    padding: 10px;
+    h3{
+        font-size: 24px;
+    }
+}
+#qnty{
+    display: flex;
+    margin: 10px;
+}
+#qnty>#value{
+    height: 50px;
+    width: 80px;
+    font-size: 30px;
+    border: 1px solid black;
+    color: black;
+}
+#qnty>button{
+    height: 50px;
+    width: 80px;
+    font-size: 30px;
+    border: none;
+    background-color: rgb(183, 177, 177);
+}
+#buy{
+    height: 50px;
+    width: 240px;
+    border-radius: 25px;
+    margin: 10px;
+}
